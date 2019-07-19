@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="AppTheme" parent="AppThemeBase" />
+
+    <style name="AppTheme.Dialog" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/dialog_background</item>
+    </style>
+
+    <style name="AppThemeBase" parent="Theme.Design.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="@style/Widget.Design.CollapsingToolbar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTheme">
+        <item name="colorControlNormal">#FFF</item>
+    </style>
+
+    <style name="TitleStyle" parent="@style/TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clock"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="50sp"
+        tools:text="12"
+        android:fontFamily="@font/agency_m"
+        android:format24Hour="HH"
+        android:format12Hour="hh"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:text=":"
+        android:gravity="center"
+        android:fontFamily="@font/agency_m"
+        android:textSize="50sp"
+        android:textColor="@android:color/white"/>
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="50sp"
+        tools:text="34"
+        android:fontFamily="@font/agency_m"
+        android:format24Hour="mm"
+        android:format12Hour="mm"/>
+
+    <ImageView
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="May.20.2019"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Monday"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

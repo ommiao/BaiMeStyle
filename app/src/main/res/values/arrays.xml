@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="launchers">
+        <item>Nova</item>
+        <item>Action</item>
+        <item>Adw</item>
+        <item>Apex</item>
+        <item>Atom</item>
+        <item>Aviate</item>
+        <item>Go</item>
+        <item>KK</item>
+        <item>LG</item>
+        <item>Next</item>
+        <item>Smart</item>
+        <item>Solo</item>
+    </string-array>
+
+    <string-array name="whatsnew">
+        <item>coloros_bbs</item>
+        <item>coloros_familyguard</item>
+        <item>coloros_gamespace</item>
+        <item>deepink</item>
+        <item>fasthub</item>
+        <item>fdroid</item>
+        <item>flyme_bbs</item>
+        <item>flyme_life</item>
+        <item>flyme_mall</item>
+        <item>heiyan</item>
+        <item>meizu_mcare</item>
+        <item>meizu_painter</item>
+        <item>meizu_store</item>
+        <item>openvpn</item>
+        <item>oppo_community</item>
+        <item>oppo_littlegames</item>
+        <item>oppo_usercenter</item>
+        <item>ourplay</item>
+        <item>outline</item>
+        <item>secscan_qr</item>
+        <item>taichi</item>
+        <item>vmall</item>
+        <item>whatsapp</item>
+        <item>xiaohongshu</item>
+        <item>_369trip</item>
+    </string-array>
+
+</resources>
